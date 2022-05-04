@@ -1,0 +1,45 @@
+body{
+    background-image: url('Images/music.jpeg');
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: white;
+    background-color: white;
+    color:palevioletred;
+    top:100px;
+    left:550px;
+    position:fixed;
+}
+#payment{
+    top:300px;
+    position:fixed;
+}
+#total{
+    top:500px;
+    position:fixed;
+}
+#fees{
+    top:550px;
+    position:fixed;
+    display:none;
+}
+#submit{
+    top:300px;
+    left:800px;
+    position:fixed;
+}
+#congrats{
+    top:400px;
+    left:700px;
+    position:fixed;
+}

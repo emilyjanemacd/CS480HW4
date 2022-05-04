@@ -1,0 +1,148 @@
+body{
+    background-image: url('Images/music.jpeg');
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: white;
+    background-color: white;
+    color:palevioletred;
+    top:100px;
+    left:550px;
+    position:fixed;
+}
+#dollar{
+  top:130px;
+  left:1000px;
+  position:fixed;
+}
+
+#decade{
+    color: black;
+    font-size: 20px;
+    top:300px;
+    position:fixed;
+}
+#song1{
+    position:fixed;
+    top:450px;
+    left:0px;
+    display: block;
+}
+#song4{
+  position:fixed;
+  top:450px;
+  left:0px;
+  display: none;
+}
+
+#genre{
+    left:500px;
+    color:black;
+    font-size: 20px;
+    top:300px;
+    position:fixed;
+}
+#song2{
+    position:fixed;
+    top:450px;
+    left:500px;
+    display: block;
+}
+#song5{
+  position:fixed;
+  top:450px;
+  left:500px;
+  display: none;
+}
+#Membership{
+    left:1000px;
+    color:black;
+    font-size: 20px;
+    top:300px;
+    position:fixed;
+}
+#song3{
+    position:fixed;
+    top:450px;
+    left:1000px;
+    display: block;
+}
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: gray; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    top:200px;
+    position:fixed;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    top:200px;
+    position:fixed;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  .alert2 {
+    padding: 15px;
+    background-color: gray; /* Red */
+    color: white;
+    margin-bottom: 10px;
+    top:110px;
+    position:fixed;
+  }
+  
+  /* The close button */
+  .closebtn2 {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 15px;
+    line-height: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    top:110px;
+    position:fixed;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn2:hover {
+    color: black;
+  }
+  #clickMe{
+      position:fixed;
+      top:160px;
+      left:400px;
+      
+  }
+  #fav{
+      position:fixed;
+      top:160px;
+      left:1200px;
+      height:50px;
+      width:150px;
+      background-color: pink;
+  }

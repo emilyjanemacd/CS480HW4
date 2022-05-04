@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+   <head>
+       <meta charset="utf-8">
+       <title>Home </title>
+       <link rel="stylesheet" type="text/css" href="LightVersionStyle.css">
+       <h1>
+           Cob's Soul Music
+          
+        </h1>
+       
+        
+        <div id="decade">
+            <h2>
+                Decade
+            </h2>
+            <label for="decades">Choose a decade: </label>
+            <select id="decades" onchange="showSelection()">
+                <option value="1">60s</option>
+                <option value="2">Modern</option>
+,           </select>
+              <br>
+              <br>
+              
+         </div>
+         
+         <div id = "song1">
+            <p> "Aint No Mountain High Enough -Marvin Gaye" </p><button style="background-color: pink;" onclick= add1ToFavs()> Add to Favorites </button>
+              <audio controls preload="none" style="width:100px;">
+                <source src="Audio/New Recording 18.m4a" type="audio/mp4" />
+                <p>Your browser does not support HTML5 audio.</p>
+                </audio>
+         </div>
+         <div id = "song4">
+            <p> "As It Was - Harry Styles" </p><button style="background-color: pink;"onclick= add4ToFavs()> Add to Favorites </button>
+              <audio controls preload="none" style="width:100px;">
+                <source src="Audio/New Recording 22.m4a" type="audio/mp4" />
+                <p>Your browser does not support HTML5 audio.</p>
+                </audio>
+         </div>
+
+
+         <div id = "genre">
+             <h2>
+                   Build Your Profile!
+             </h2>
+              <a href ="LightSetup.html"><button style="height:20px;width:100px"> Check it out!  </button></a>
+         </div>
+         <div id = "song2">
+            <p> "Sunny - Stevie Wonder" </p><button style="background-color: pink;"onclick= add2ToFavs()> Add to Favorites </button>
+                 <audio controls preload="none" style="width:100px;">
+                   <source src="Audio/New Recording 19.m4a" type="audio/mp4" />
+                   <p>Your browser does not support HTML5 audio.</p>
+                   </audio>
+        </div>
+        <div id = "song5">
+            <p> "Blank Space -Taylor Swift" </p><button style="background-color: pink;"onclick= add5ToFavs()> Add to Favorites </button>
+                 <audio controls preload="none" style="width:100px;">
+                   <source src="Audio/New Recording 23.m4a" type="audio/mp4" />
+                   <p>Your browser does not support HTML5 audio.</p>
+                   </audio>
+        </div>
+         <div id = "Membership">
+            <h2>
+                Upgrade Membership
+            </h2>
+            <a href ="LightUpgrade.html"><button style="height:20px;width:100px"> Upgrade</button></a>
+         </div>
+         <div id = "song3">
+            <p> "Don't You Worry About A Thing Stevie Wonder" </p ><button style="background-color: pink;"onclick= add3ToFavs()> Add to Favorites </button>
+                 <audio controls preload="none" style="width:100px;">
+                   <source src="Audio/New Recording 21.m4a" type="audio/mp4" />
+                   <p>Your browser does not support HTML5 audio.</p>
+                   </audio>
+        </div>
+         <div id="alert">
+             <p>
+            AD
+            <br>
+            Cereal Flakes, “Asbestos free”
+             </p>
+            <a href="http://www.dolekemp96.org/agenda/issues/internet.htm"><p>Zombie Bob Dole 2024!</p></a>
+            <p>"Jim’s Brake Pads, “They work every time, 50% of the time”</p>
+
+          </div>
+          <div id = "favs">
+            <select name="fav" id="fav">
+                <option value="Favorites">Favorites</option>
+              </select>
+          </div>
+   </head>
+   
+
+   <script type="text/javascript">
+
+       
+      
+       function showSelection(){
+           
+        if(document.getElementById("decades").value="1")
+           {
+            document.getElementById("song1").style.display = "block";
+            document.getElementById("song2").style.display = "block";
+            document.getElementById("song3").style.display = "block";
+            document.getElementById("song4").style.display = "none";
+            document.getElementById("song5").style.display = "none";
+           }
+           if(document.getElementById("decades").value="2")
+           {
+            document.getElementById("song1").style.display = "none";
+            document.getElementById("song2").style.display = "none";
+            document.getElementById("song3").style.display = "none";
+            document.getElementById("song4").style.display = "block";
+            document.getElementById("song5").style.display = "block";
+           }
+       }
+       function add1ToFavs(){
+        var x = document.getElementById("fav");
+        var option = document.createElement("option");
+        option.text = "Aint No Mountain High Enough -Marvin Gaye";
+        x.add(option);
+       }
+       function add2ToFavs(){
+        var x = document.getElementById("fav");
+        var option = document.createElement("option");
+        option.text = "Sunny - Stevie Wonder";
+        x.add(option);
+       }
+       function add3ToFavs(){
+        var x = document.getElementById("fav");
+        var option = document.createElement("option");
+        option.text = "Don't You Worry About A Thing Stevie Wonder";
+        x.add(option);
+       }
+       
+       function add4ToFavs(){
+        var x = document.getElementById("fav");
+        var option = document.createElement("option");
+        option.text = "As It Was - Harry Styles";
+        x.add(option);
+       }
+       
+       function add5ToFavs(){
+        var x = document.getElementById("fav");
+        var option = document.createElement("option");
+        option.text = "Blank Space -Taylor Swift";
+        x.add(option);
+       }
+       
+   </script>
+
+  
